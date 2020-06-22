@@ -50,21 +50,6 @@ namespace ProjectApp.Database
                 .WithMany(t => t.ProjectTags)
                 .HasForeignKey(pt => pt.TagId);
 
-            //testdata
-
-            modelBuilder.Entity<Project>().HasData(
-                new Project() { Id = 1, Title = "Calculator", StatusId = 1, CompletionDate = DateTime.Now, Description = "Fun winforms project" },
-                new Project() { Id = 2, Title = "Portfolio website", StatusId = 2, CompletionDate = DateTime.Now, Description = "Difficult project" }
-                );
-
-            modelBuilder.Entity<ProjectTag>().HasData(
-new ProjectTag() { ProjectId = 1, TagId = 1 },
-new ProjectTag() { ProjectId = 1, TagId = 2 },
-new ProjectTag() { ProjectId = 2, TagId = 5 },
-new ProjectTag() { ProjectId = 2, TagId = 7 }
-);
-
-
         }
         public DbSet<Project> Projects { get; set; }
         public DbSet<Status> Statuses { get; set; }

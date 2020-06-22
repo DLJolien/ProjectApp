@@ -3,10 +3,9 @@
 @using Microsoft.AspNetCore.Identity
 @inject SignInManager<ProjectApp.Domain.ProjectUser> signInManager
 
-@if (signInManager.IsSignedIn(User))
-{
+
     <a asp-controller="Project" asp-action="Create">Add new project</a>
-}
+
 
 
 

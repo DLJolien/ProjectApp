@@ -82,3 +82,4 @@ C:\Users\Jolien\source\repos\ProjectApp\ProjectApp\ProjectApp\obj\Debug\netcorea
 C:\Users\Jolien\source\repos\ProjectApp\ProjectApp\ProjectApp\obj\Debug\netcoreapp3.1\ProjectApp.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Jolien\source\repos\ProjectApp\ProjectApp\ProjectApp\obj\Debug\netcoreapp3.1\Razor\Views\Project\Index.cshtml.g.cs
 C:\Users\Jolien\source\repos\ProjectApp\ProjectApp\ProjectApp\obj\Debug\netcoreapp3.1\Razor\Views\Project\Detail.cshtml.g.cs
+C:\Users\Jolien\source\repos\ProjectApp\ProjectApp\ProjectApp\obj\Debug\netcoreapp3.1\Razor\Views\Project\Create.cshtml.g.cs
