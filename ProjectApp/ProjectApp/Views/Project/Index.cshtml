@@ -47,8 +47,8 @@
                         @*<td class="info">
                             <img src="@project.PhotoUrl" />
                         </td>*@
-                        <td class="info">
-                            @project.Title
+                        <td class="info">                           
+                            <a asp-controller="Project" asp-action="Detail" asp-route-id="@project.Id">@project.Title</a>
                         </td>
                         <td class="info">
                             @project.Status
