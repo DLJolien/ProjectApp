@@ -33,7 +33,7 @@ namespace ProjectApp
                 options.UseSqlServer(
                     Configuration.GetConnectionString("DefaultConnection")));
             services.AddDefaultIdentity<ProjectUser>(options => options.SignIn.RequireConfirmedAccount = true)
-                .AddEntityFrameworkStores<ApplicationDbContext>();
+                .AddEntityFrameworkStores<ProjectDb>();
             services.AddControllersWithViews();
             services.AddRazorPages();
         }
