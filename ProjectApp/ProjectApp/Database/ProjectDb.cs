@@ -21,9 +21,9 @@ namespace ProjectApp.Database
             base.OnModelCreating(modelBuilder);
 
             modelBuilder.Entity<Status>().HasData(
-                new Status() { Id = 1, Description = "Afgewerkt" },
-                new Status() { Id = 2, Description = "Huidig" },
-                new Status() { Id = 3, Description = "Toekomstig" }
+                new Status() { Id = 1, Description = "Finished" },
+                new Status() { Id = 2, Description = "Current" },
+                new Status() { Id = 3, Description = "Future" }
                 );
 
             modelBuilder.Entity<Tag>().HasData(
@@ -36,6 +36,8 @@ namespace ProjectApp.Database
                 new Tag() { Id = 7, Description = "ASP.NET" }
                 );
 
+
+
             modelBuilder.Entity<ProjectTag>().HasKey(pt => new { pt.TagId, pt.ProjectId });
 
             modelBuilder.Entity<ProjectTag>()
@@ -47,6 +49,22 @@ namespace ProjectApp.Database
                 .HasOne(pt => pt.Tag)
                 .WithMany(t => t.ProjectTags)
                 .HasForeignKey(pt => pt.TagId);
+
+            //testdata
+
+            modelBuilder.Entity<Project>().HasData(
+                new Project() { Id = 1, Title = "Calculator", StatusId = 1, CompletionDate = DateTime.Now, Description = "Fun winforms project" },
+                new Project() { Id = 2, Title = "Portfolio website", StatusId = 2, CompletionDate = DateTime.Now, Description = "Difficult project" }
+                );
+
+            modelBuilder.Entity<ProjectTag>().HasData(
+new ProjectTag() { ProjectId = 1, TagId = 1 },
+new ProjectTag() { ProjectId = 1, TagId = 2 },
+new ProjectTag() { ProjectId = 2, TagId = 5 },
+new ProjectTag() { ProjectId = 2, TagId = 7 }
+);
+
+
         }
         public DbSet<Project> Projects { get; set; }
         public DbSet<Status> Statuses { get; set; }

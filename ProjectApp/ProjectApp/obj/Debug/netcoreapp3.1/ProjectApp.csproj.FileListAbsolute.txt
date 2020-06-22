@@ -12,8 +12,6 @@ C:\Users\Jolien\source\repos\ProjectApp\ProjectApp\ProjectApp\bin\Debug\netcorea
 C:\Users\Jolien\source\repos\ProjectApp\ProjectApp\ProjectApp\bin\Debug\netcoreapp3.1\ProjectApp.pdb
 C:\Users\Jolien\source\repos\ProjectApp\ProjectApp\ProjectApp\bin\Debug\netcoreapp3.1\ProjectApp.Views.dll
 C:\Users\Jolien\source\repos\ProjectApp\ProjectApp\ProjectApp\bin\Debug\netcoreapp3.1\ProjectApp.Views.pdb
-C:\Users\Jolien\source\repos\ProjectApp\ProjectApp\ProjectApp\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
-C:\Users\Jolien\source\repos\ProjectApp\ProjectApp\ProjectApp\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 C:\Users\Jolien\source\repos\ProjectApp\ProjectApp\ProjectApp\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
 C:\Users\Jolien\source\repos\ProjectApp\ProjectApp\ProjectApp\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Users\Jolien\source\repos\ProjectApp\ProjectApp\ProjectApp\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V3.dll
@@ -34,10 +32,6 @@ C:\Users\Jolien\source\repos\ProjectApp\ProjectApp\ProjectApp\bin\Debug\netcorea
 C:\Users\Jolien\source\repos\ProjectApp\ProjectApp\ProjectApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
 C:\Users\Jolien\source\repos\ProjectApp\ProjectApp\ProjectApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
 C:\Users\Jolien\source\repos\ProjectApp\ProjectApp\ProjectApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-C:\Users\Jolien\source\repos\ProjectApp\ProjectApp\ProjectApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
-C:\Users\Jolien\source\repos\ProjectApp\ProjectApp\ProjectApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Embedded.dll
-C:\Users\Jolien\source\repos\ProjectApp\ProjectApp\ProjectApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
-C:\Users\Jolien\source\repos\ProjectApp\ProjectApp\ProjectApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
 C:\Users\Jolien\source\repos\ProjectApp\ProjectApp\ProjectApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
 C:\Users\Jolien\source\repos\ProjectApp\ProjectApp\ProjectApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
 C:\Users\Jolien\source\repos\ProjectApp\ProjectApp\ProjectApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
@@ -60,9 +54,6 @@ C:\Users\Jolien\source\repos\ProjectApp\ProjectApp\ProjectApp\bin\Debug\netcorea
 C:\Users\Jolien\source\repos\ProjectApp\ProjectApp\ProjectApp\obj\Debug\netcoreapp3.1\ProjectApp.csprojAssemblyReference.cache
 C:\Users\Jolien\source\repos\ProjectApp\ProjectApp\ProjectApp\obj\Debug\netcoreapp3.1\ProjectApp.AssemblyInfoInputs.cache
 C:\Users\Jolien\source\repos\ProjectApp\ProjectApp\ProjectApp\obj\Debug\netcoreapp3.1\ProjectApp.AssemblyInfo.cs
-C:\Users\Jolien\source\repos\ProjectApp\ProjectApp\ProjectApp\obj\Debug\netcoreapp3.1\ProjectApp.csproj.CoreCompileInputs.cache
-C:\Users\Jolien\source\repos\ProjectApp\ProjectApp\ProjectApp\obj\Debug\netcoreapp3.1\ProjectApp.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\Jolien\source\repos\ProjectApp\ProjectApp\ProjectApp\obj\Debug\netcoreapp3.1\ProjectApp.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Jolien\source\repos\ProjectApp\ProjectApp\ProjectApp\obj\Debug\netcoreapp3.1\ProjectApp.RazorAssemblyInfo.cache
 C:\Users\Jolien\source\repos\ProjectApp\ProjectApp\ProjectApp\obj\Debug\netcoreapp3.1\ProjectApp.RazorAssemblyInfo.cs
 C:\Users\Jolien\source\repos\ProjectApp\ProjectApp\ProjectApp\obj\Debug\netcoreapp3.1\ProjectApp.TagHelpers.input.cache
@@ -86,3 +77,7 @@ C:\Users\Jolien\source\repos\ProjectApp\ProjectApp\ProjectApp\obj\Debug\netcorea
 C:\Users\Jolien\source\repos\ProjectApp\ProjectApp\ProjectApp\obj\Debug\netcoreapp3.1\ProjectApp.dll
 C:\Users\Jolien\source\repos\ProjectApp\ProjectApp\ProjectApp\obj\Debug\netcoreapp3.1\ProjectApp.pdb
 C:\Users\Jolien\source\repos\ProjectApp\ProjectApp\ProjectApp\obj\Debug\netcoreapp3.1\ProjectApp.genruntimeconfig.cache
+C:\Users\Jolien\source\repos\ProjectApp\ProjectApp\ProjectApp\obj\Debug\netcoreapp3.1\ProjectApp.csproj.CoreCompileInputs.cache
+C:\Users\Jolien\source\repos\ProjectApp\ProjectApp\ProjectApp\obj\Debug\netcoreapp3.1\ProjectApp.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Jolien\source\repos\ProjectApp\ProjectApp\ProjectApp\obj\Debug\netcoreapp3.1\ProjectApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Jolien\source\repos\ProjectApp\ProjectApp\ProjectApp\obj\Debug\netcoreapp3.1\Razor\Views\Project\Index.cshtml.g.cs

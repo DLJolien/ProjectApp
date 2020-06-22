@@ -64,7 +64,7 @@ namespace ProjectApp
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{controller=Project}/{action=Index}");
                 endpoints.MapRazorPages();
             });
         }
